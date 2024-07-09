@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style1.css"> 
+    
+    <title>Simple Timer</title>
+    
+</head>
+<body>
+    <header class="main-heading">
+        
+        <nav class="navbar navbar-dark">
+           
+            <div class="logo">
+                <img src="../img/brain3.png" alt="Brain exercise logo">
+            </div>
+            <ul class="nav-list">
+               
+                <li><a href="../html/index.html" class="btn btn-primary">Home</a></li>
+                <li><a href="../html/illness.html" class="btn btn-primary">Overview</a></li>
+                <li><a href="../html/project.html" class="btn btn-primary">Mental Wellness</a></li>
+                <li><a href="../html/medgame.html" class="btn btn-primary">MediGame</a></li>
+                <li><a href="../html/diet.html" class="btn btn-primary">Nutrition Advice</a></li>
+                <li><a href="../html/index2.html" class="btn btn-primary">Fun Zone</a></li>
+                
+                <li><a href="../html/sign-in.html">Login</a></li>
+                
+            </ul>
+            <div class="logo">
+                <img src="../img/brain33.png" alt="Brain exercise logo">
+            </div>
+        </nav>
+    
+    
+</header>
+    <div class="main-container">
+        <div class="a">
+            <p style="color: red;"><u><b>Instant Relaxation Technique</b></u></p>
+            <h4>Exercises:</h4>
+            <ul>
+                <li>
+                    <h5>Deep Breathing:</h5> Sit or lie down comfortably. Close your eyes and focus on your breath.
+                    Breathe in slowly through your nose for a count of 4, hold for a count of 2, and exhale slowly through your
+                    mouth for a count of 6. Repeat this cycle for several minutes.
+                </li>
+                <br>
+                <h4>Mindfulness Techniques:</h4>
+                <li>
+                    <h5>5 Senses Focus:</h5>Take a minute to focus on your five senses. Name five things you can see,
+                    four things you can touch, three things you can hear, two things you can smell, and one thing you
+                    can taste.
+                </li>
+                <br>
+                <h4>Visualization:</h4>
+                <li>
+                    Imagine yourself in a peaceful and calming place. Focus on the details of the scene, like the sights, sounds, and smells. Let yourself feel relaxed and at ease.
+                </li>
+                <br>
+                <h4>Focus on the Present Moment:</h4>
+                <li>Take a moment to acknowledge your thoughts and feelings without judgment. Focus on what's happening right now, rather than dwelling on the past or worrying about the future.</li>
+                <h4>Gradual Return: </h4>
+                <li> After a few minutes, gradually bring your awareness back to your surroundings. Wiggle your fingers and toes, and when you're ready, open your eyes.</li>
+            </ul>
+        </div>
+
+        <div class="content-container">
+            <h2>!!Welcome To Your Comfort Zone!!</h2>
+            <!-- User input for time -->
+            <div class="time-input center">
+                <input type="number" id="hours" placeholder="Hours" min="0">
+                <input type="number" id="minutes" placeholder="Minutes" min="0" max="59">
+                <input type="number" id="seconds" placeholder="Seconds" min="0" max="59">
+                <button id="start">Start</button>
+            </div>
+
+            <!-- Timer -->
+            <div class="time-display center">
+                <div class="time" id="time">
+                    <div id="hour">00</div>
+                    <div class="colon">:</div>
+                    <div id="minute">00</div>
+                    <div class="colon">:</div>
+                    <div id="second">00</div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <div class="controls center">
+                <button id="pause">Pause</button>
+                <button id="reset">Reset</button>
+            </div>
+
+            <!-- Motivational Quote -->
+            <div class="quote center">
+                <p>"The best way to get started is to quit talking and begin doing." – Walt Disney</p>
+            </div>
+            <div class="i">
+                <img src="../img/yoGa.png" alt="yoga">
+            </div>
+        </div>
+
+    </div>
+    <script src="../js/script1.js"></script>
+    
+</body>
+<footer>
+    &copy; 2024 Mental Wellness Hub. All rights reserved!!!
+</footer>
+</html>
